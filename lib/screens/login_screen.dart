@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen>
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               component2(
-                                'LOGIN',
+                                'Login',
                                 2.58,
                                 () {
                                   HapticFeedback.lightImpact();
@@ -174,7 +174,7 @@ class _LoginScreenState extends State<LoginScreen>
                               ),
                               SizedBox(width: size.width / 20),
                               component2(
-                                'Forgotten password!',
+                                'Forgot password ?',
                                 2.58,
                                 () {
                                   HapticFeedback.lightImpact();
